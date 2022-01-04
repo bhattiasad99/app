@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>7-1 template</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="gridItem">
+                <button class="button topLeft">
+                    Again!
+                </button>
+            </div>
+            <div class="gridItemRightCorner">     
+                <div class="text corner__text">
+                    (Between 1 and 20)
+                </div>
+            </div>
+            <h1 class="heading">
+                Guess My Number!
+            </h1>
+            <div class="line--first">
+                &nbsp;
+            </div>
+            <div class="box u-push-left">
+                ?
+            </div>
+            <div class="line--second">
+                &nbsp;
+            </div>
+            <div class="textBox u-push-left u-push-textBox">
+                <h2 class="score__heading">
+                    Start guessing...
+                </h2>
+                <div class="scoreText">
+                    💯 Score: <span class="score" id="currentScore">20</span><br>🥇 Highscore: <span class="score" id="highScore"> 18</span>
+                </div>
+            </div>
+            <input type="number" class="inputBox">
+                &nbsp;
+            </input>
+            <div class="buttonCheckItem">
+                <button class="button checkButton" id="check">
+                Check!
+                </button>
+            </div>
+        </div>
+    </body>
+    <script src="scripts.js"></script>
+</html>
